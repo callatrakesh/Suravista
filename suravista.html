@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suravista</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header class="bg-white sticky top-0 z-10">
+        <div class="container mx-auto">
+            <div class="flex flex-wrap justify-center md:justify-between p-2 md:items-center">
+                <div>
+                    <h1 class="text-xl uppercase font-black text-red-600 border-b-2 border-slate-500">Surravista</h1>
+                    <p class="text-gray-500 uppercase text-xs leading-6">Pest Control Service</p>
+                </div>
+                <div class="flex justify-between w-full md:w-auto">
+                    <ul class="flex gap-5 text-gray-600">
+                        <li><a href="#" class="hover:text-red-600">About</a></li>
+                        <li><a href="#" class="hover:text-red-600">Services</a></li>
+                        <li><a href="#" class="hover:text-red-600">Contact</a></li>
+                    </ul>
+                    <ul class="flex gap-3 ml-8">
+                        <li>
+                            <a href="#" class="flex items-center justify-center text-red-600 w-8 h-8 rounded-full bg-red-600 hover:bg-sky-600 transtion"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" style="width:20px;height:20px;fill:#fff"><path d="M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z"/></svg></a>
+                        </li>
+                        <li>
+                            <a href="#" class="flex items-center justify-center text-red-600 w-8 h-8 rounded-full bg-red-600 hover:bg-sky-600 transtion"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="width:20px;height:20px;fill:#fff"><path d="M459.4 151.7c.3 4.5 .3 9.1 .3 13.6 0 138.7-105.6 298.6-298.6 298.6-59.5 0-114.7-17.2-161.1-47.1 8.4 1 16.6 1.3 25.3 1.3 49.1 0 94.2-16.6 130.3-44.8-46.1-1-84.8-31.2-98.1-72.8 6.5 1 13 1.6 19.8 1.6 9.4 0 18.8-1.3 27.6-3.6-48.1-9.7-84.1-52-84.1-103v-1.3c14 7.8 30.2 12.7 47.4 13.3-28.3-18.8-46.8-51-46.8-87.4 0-19.5 5.2-37.4 14.3-53 51.7 63.7 129.3 105.3 216.4 109.8-1.6-7.8-2.6-15.9-2.6-24 0-57.8 46.8-104.9 104.9-104.9 30.2 0 57.5 12.7 76.7 33.1 23.7-4.5 46.5-13.3 66.6-25.3-7.8 24.4-24.4 44.8-46.1 57.8 21.1-2.3 41.6-8.1 60.4-16.2-14.3 20.8-32.2 39.3-52.6 54.3z"/></svg></a>
+                            
+                        </li>
+                        <li>
+                            <a href="#"  class="flex items-center justify-center text-red-600 w-8 h-8 rounded-full bg-red-600 hover:bg-sky-600 transtion"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" style="width:20px;height:20px;fill:#fff"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="bg-cover p-4 md:py-[100px] bg-[url('photo-1609220136736-443140cffec6.avif')] bg-center relative before:content-[''] before:absolute before:top-0 before:left-0 before:h-full before:w-full before:bg-[rgba(0,0,0,0.7)]" >
+        <div class="container mx-auto relative z-index-1">
+            <div class="w-full md:w-1/2 text-white">
+                <h2 class="text-5xl leading-tight font-semibold mb-3">Keeping Families safe from toxins &amp; pests</h2>
+                <p class="text-xl leading-normal">We leverage the latest and greatest products on the market to ensure the lowest environmental impact while profiding effective results</p>
+                <a href="#" class="inline-block mt-8 mb-5 p-3 px-8 bg-red-600 rounded-md text-white text-lg font-semibold">Book a free estimate</a>
+            </div>
+        </div>
+    </section>
+    <section class="bg-white md:py-[100px] p-4">
+        <div class="container mx-auto">
+            <div class="flex flex-wrap items-center gap-8">
+                <div class="w-full md:w-1/2 p-4">
+                    <h2 class="text-4xl font-semibold text-black mb-3">About Us</h2>
+                    <p class="text-xl text-gray-600 leading-8">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet.</p>
+                    <a href="#" class="inline-block mt-5 p-2 px-5 border border-slate-400 rounded-md  gray-800 transtion hover:bg-red-500 hover:text-white hover:border-red-500">Learn More</a>
+                </div>
+                <div class="w-full md:w-1/2 p-4">
+                    <img class="w-full h-auto border p-2 rounded-md" src="photo-1572120360610-d971b9d7767c.avif"/>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-sky-950 py-[100px]">
+        <div class="container mx-auto">
+            <div class="flex justify-center">
+                <div class="w-full md:w-1/2 text-center text-white p-4">
+                    <p class="text-2xl mb-3 leading-8 italic">"I've used Surravista for wasp invasion in my attic and I couldn't be happier! They are very reliable and quick. I highly recommend their services!"</p>
+                    <p>-Rui T, Corpus Christi</p>
+                </div>
+            </div>            
+        </div>
+    </section>
+    <section class="bg-white py-10">
+        <div class="container mx-auto">
+            <div class="flex flex-wrap">
+                <div class="w-full md:w-1/3 px-4 mb-8">
+                    <div>
+                        <div class="flex justify-center items-center leading-[0] mb-3 h-80 overflow-hidden">
+                            <img src="photo-1589358141768-0be9002874f0.avif" alt="" height="" width=""/>
+                        </div>
+                        <h3 class="text-3xl font-semibold text-gray-800">Insect Control</h3>
+                        <p class="mt-2 text-gray-600">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut,</p>
+                        <a href="#" class="inline-block mt-4 rounded-md border border-gray-600 p-2 px-5 hover:bg-red-500 hover:text-white hover:border-red-500 leading-5 text-gray-700">Read More</a>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/3 px-4 mb-8">
+                    <div>
+                        <div class="flex justify-center items-center leading-[0] mb-3 h-80 overflow-hidden">
+                            <img src="photo-1712889315954-48c9f0d2d52e.avif" alt="" height="" width=""/>
+                        </div>
+                        <h3 class="text-3xl font-semibold text-gray-800">Rodent Control</h3>
+                        <p class="mt-2 text-gray-600">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut,</p>
+                        <a href="#" class="inline-block mt-4 rounded-md border border-gray-600 p-2 px-5 hover:bg-red-500 hover:text-white hover:border-red-500 leading-5 text-gray-700">Read More</a>
+                    </div>
+                </div>
+                <div class="w-full  md:w-1/3 px-4 mb-8">
+                    <div>
+                        <div class="flex justify-center items-center leading-[0] mb-3 h-80 overflow-hidden">
+                            <img src="photo-1444465693019-aa0b6392460d.avif" alt="" height="" width=""/>
+                        </div>
+                        <h3 class="text-3xl font-semibold text-gray-800">Bird Control</h3>
+                        <p class="mt-2 text-gray-600">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut,</p>
+                        <a href="#" class="inline-block mt-4 rounded-md border border-gray-600 p-2 px-5 hover:bg-red-500 hover:text-white hover:border-red-500 leading-5 text-gray-700">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-cyan-950 py-16">
+        <div class="container mx-auto">
+            <div class="flex flex-wrap">
+                <div class="w-full md:w-1/2 px-4 text-white mb-5">
+                    <h2 class="text-3xl font-semibold mb-3">Get in touch</h2>
+                    <p class="text-xl">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.<br/> Aenean commodo ligula eget dolor. Aenean massa</p>
+                </div>
+                <div class="w-full md:w-1/2 px-4">
+                    <form>
+                        <div class="flex flex-wrap -mx-4 ">
+                            <div class="w-full md:w-1/2 mb-5 px-4">
+                                <label class="text-white inline-block mb-1">Name</label>
+                                <input type="text" class="w-full p-2 rounded-sm border border-sky-800 bg-cyan-900 outline-0 text-white"  required/>
+                            </div>
+                            <div class="w-full md:w-1/2 mb-5 px-4">
+                                <label class="text-white inline-block mb-1">Email Address</label>
+                                <input type="email" class="w-full p-2 rounded-sm border border-sky-800 bg-cyan-900 outline-0 text-white" required/>
+                            </div>
+                        </div>
+                        <div class="mb-5">
+                            <label class="text-white inline-block mb-1">Message</label>
+                            <textarea rows="5" class="w-full p-2 rounded-sm border border-sky-800 bg-cyan-900 outline-0 text-white"></textarea>
+                        </div>
+                        <button type="submit" class="inline-block p-2 rounded-sm px-8 text-white border border-sky-800 bg-sky-900">Send Now</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container mx-auto">
+            <div class="flex justify-between p-4 items-center">
+                <div>
+                    <h1 class="text-xl uppercase font-black text-red-600 border-b-2 border-slate-500">Surravista</h1>
+                    <p class="text-gray-500 uppercase text-xs leading-6">Pest Control Service</p>
+                </div>
+                <ul class="flex gap-3">
+                    <li>
+                        <a href="#" class="flex items-center justify-center text-red-600 w-8 h-8 rounded-full bg-red-600 hover:bg-sky-600 transtion"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" style="width:20px;height:20px;fill:#fff"><path d="M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z"/></svg></a>
+                    </li>
+                    <li>
+                        <a href="#" class="flex items-center justify-center text-red-600 w-8 h-8 rounded-full bg-red-600 hover:bg-sky-600 transtion"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="width:20px;height:20px;fill:#fff"><path d="M459.4 151.7c.3 4.5 .3 9.1 .3 13.6 0 138.7-105.6 298.6-298.6 298.6-59.5 0-114.7-17.2-161.1-47.1 8.4 1 16.6 1.3 25.3 1.3 49.1 0 94.2-16.6 130.3-44.8-46.1-1-84.8-31.2-98.1-72.8 6.5 1 13 1.6 19.8 1.6 9.4 0 18.8-1.3 27.6-3.6-48.1-9.7-84.1-52-84.1-103v-1.3c14 7.8 30.2 12.7 47.4 13.3-28.3-18.8-46.8-51-46.8-87.4 0-19.5 5.2-37.4 14.3-53 51.7 63.7 129.3 105.3 216.4 109.8-1.6-7.8-2.6-15.9-2.6-24 0-57.8 46.8-104.9 104.9-104.9 30.2 0 57.5 12.7 76.7 33.1 23.7-4.5 46.5-13.3 66.6-25.3-7.8 24.4-24.4 44.8-46.1 57.8 21.1-2.3 41.6-8.1 60.4-16.2-14.3 20.8-32.2 39.3-52.6 54.3z"/></svg></a>
+                        
+                    </li>
+                    <li>
+                        <a href="#"  class="flex items-center justify-center text-red-600 w-8 h-8 rounded-full bg-red-600 hover:bg-sky-600 transtion"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" style="width:20px;height:20px;fill:#fff"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
